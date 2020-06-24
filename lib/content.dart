@@ -18,6 +18,7 @@ class Content extends StatelessWidget {
   Widget build(context) => GridView.builder(
         itemCount: elements.length,
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          // The size of the items
           maxCrossAxisExtent: 130.0,
           crossAxisSpacing: 20.0,
           mainAxisSpacing: 20.0,
