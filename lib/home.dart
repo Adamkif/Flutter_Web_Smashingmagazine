@@ -6,7 +6,9 @@ import 'menu.dart';
 class Home extends StatelessWidget {
   @override
   Widget build(context) => Scaffold(
-        appBar: AppBar(title: Text("test")),
+        appBar: AppBar(
+          title: Text("Adam"),
+        ),
         drawer: MediaQuery.of(context).size.width < 500
             ? Drawer(
                 child: Menu(),
